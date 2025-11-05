@@ -31,8 +31,8 @@ diagnostic = { } # Code diagnostics in editing area (LSP).
 'ui.cursor.select' = { } # The cursor in select mode (v).
 'ui.cursor.match' = { bg = "dark-one" } # The matching parentheses of that under the cursor.
 
-'ui.selection' = { bg = "blue-one" } # All currently selected text.
-'ui.selection.primary' = { bg = "blue-one" } # The primary selection when there are multiple.
+'ui.selection' = { bg = "blue-five" } # All currently selected text.
+'ui.selection.primary' = { bg = "blue-five" } # The primary selection when there are multiple.
 
 'ui.linenr' = { fg = "light-one" } # Line numbers.
 'ui.linenr.selected' = { fg = "dark-five", bg = "light-three" } # Current line number.
