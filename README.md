@@ -2,6 +2,12 @@
 
 ![greatness.](https://github.com/qrvaldemar/helix-theme-alabaster/blob/main/would-you-look-at-this.png)
 
-there is yet only half-assed dark theme. but things will get better (I also want to port a light bg variant and make dark variant less ass), i promise (you better stop believing people that promise you things and contribute. I would like to read even a simple blurry suggestion issue (especially if you are somewhat proficient in helix and think that theme is missing something.)
+right now there is only a half-assed dark theme. but things will get better (I also want to port a light bg variant and make dark variant less ass), I promise (you better stop believing people that promise you things and contribute. I would like to read even a simple blurry suggestion (especially if you are somewhat proficient in helix.)
 
-it's half-assed because i really just downloaded a helix theme template and did some basic configuring. and because i decided to use GNOME pallete (colors are still the same, just *not exactly*). and because I really didn't use Helix before and not sure what is what.
+it's half-assed because i really just downloaded a helix theme template and did some basic configuring. and also because I decided to use GNOME pallete (colors are still the same, just *not exactly*.) and also because I really haven't yet used Helix much and not sure what is what.
+
+## Installation
+### Linux
+Just download alabaster-dark-unpolished.toml and put it in `~/.config/helix/themes/` (if those directory's do not exist to just create them)
+
+If you want to later on easily update, you can `git clone` this repository, copy needed theme or themes to `~/.config/helix/themes/` and `git pull` later as it updates (:J)
