@@ -25,11 +25,11 @@ diagnostic = { } # Code diagnostics in editing area (LSP).
 'ui.text.focus' = { } # Selection highlight in buffer-picker or file-picker.
 'ui.text.info' = { } # Info popup contents (space mode menu).
 
-'ui.cursor' = { bg = "brown-three" } # Fallback cursor colour, non-primary cursors when there are multiple (shift-c).
-'ui.cursor.primary' = { bg = "brown-three" } # The primary cursor when there are multiple (shift-c).
-'ui.cursor.insert' = { bg = "purple-one" } # The cursor in insert mode (i).
+'ui.cursor' = { bg = "blue-five" } # Fallback cursor colour, non-primary cursors when there are multiple (shift-c).
+'ui.cursor.primary' = { bg = "blue-five" } # The primary cursor when there are multiple (shift-c).
+'ui.cursor.insert' = { } # The cursor in insert mode (i).
 'ui.cursor.select' = { } # The cursor in select mode (v).
-'ui.cursor.match' = { bg = "brown-one" } # The matching parentheses of that under the cursor.
+'ui.cursor.match' = { bg = "blue-three" } # The matching parentheses of that under the cursor.
 
 'ui.selection' = { bg = "blue-one" } # All currently selected text.
 'ui.selection.primary' = { bg = "blue-one" } # The primary selection when there are multiple.
@@ -48,15 +48,15 @@ diagnostic = { } # Code diagnostics in editing area (LSP).
 "ui.statusline.insert" = { } # Statusline mode during insert mode (only if editor.color-modes is enabled)
 "ui.statusline.select" = { } # Statusline mode during select mode (only if editor.color-modes is enabled)
 
-'ui.help' = { } # `:command` descriptions above the command line.
+'ui.help' = { fg = "dark-five", bg = "light-three" } # `:command` descriptions above the command line.
 
 'ui.highlight' = { } # selected contents of symbol pickers (spc-s, spc-S) and current line in buffer picker (spc-b).
 
-'ui.menu' = { } # Autocomplete menu.
-'ui.menu.selected' = { } # Selected autocomplete item.
+'ui.menu' = { fg = "dark-five", bg = "light-three" } # Autocomplete menu.
+'ui.menu.selected' = { fg = "dark-five", bg = "dark-three" } # Selected autocomplete item.
 
-'ui.popup' = { } # Documentation popups (space-k).
-'ui.popup.info' = { } # Info popups box (space mode menu).
+'ui.popup' = { fg = "dark-five", bg = "light-three"  } # Documentation popups (space-k).
+'ui.popup.info' = {fg = "dark-five", bg = "light-three" } # Info popups box (space mode menu).
 
 
 # SYNTAX HIGHLIGHTING ==============================
