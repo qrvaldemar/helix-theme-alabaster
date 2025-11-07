@@ -10,9 +10,9 @@
 
 warning = { fg = "red-one" } # Editor warnings.
 error = { fg = "red-one" } # Editor errors, like mis-typing a command.
-info = { } # Contextual info in diagnostic messages (LSP).
-hint = { } # Code diagnostics hints (LSP).
-diagnostic = { } # Code diagnostics in editing area (LSP).
+info = { fg = "light-one", bg = "red-one" } # Contextual info in diagnostic messages (LSP).
+hint = { fg = "light-one", bg = "red-one" } # Code diagnostics hints (LSP).
+diagnostic = { fg = "light-one", bg = "red-one" } # Code diagnostics in editing area (LSP).
 
 # UI ==============================
 # For styling helix itself.
@@ -48,12 +48,12 @@ diagnostic = { } # Code diagnostics in editing area (LSP).
 "ui.statusline.insert" = { } # Statusline mode during insert mode (only if editor.color-modes is enabled)
 "ui.statusline.select" = { } # Statusline mode during select mode (only if editor.color-modes is enabled)
 
-'ui.help' = { } # `:command` descriptions above the command line.
+'ui.help' = { fg = "light-one", bg = "dark-fourth" } # `:command` descriptions above the command line.
 
 'ui.highlight' = { } # selected contents of symbol pickers (spc-s, spc-S) and current line in buffer picker (spc-b).
 
-'ui.menu' = { } # Autocomplete menu.
-'ui.menu.selected' = { } # Selected autocomplete item.
+'ui.menu' = { fg = "light-one", bg = "dark-fourth" } # Autocomplete menu.
+'ui.menu.selected' = { fg = "light-one", bg = "orange-five" } # Selected autocomplete item.
 
 'ui.popup' = { } # Documentation popups (space-k).
 'ui.popup.info' = { } # Info popups box (space mode menu).
