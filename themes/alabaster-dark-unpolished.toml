@@ -55,8 +55,8 @@ diagnostic = { fg = "light-one", bg = "red-one" } # Code diagnostics in editing 
 'ui.menu' = { fg = "light-one", bg = "dark-fourth" } # Autocomplete menu.
 'ui.menu.selected' = { fg = "light-one", bg = "orange-five" } # Selected autocomplete item.
 
-'ui.popup' = { } # Documentation popups (space-k).
-'ui.popup.info' = { } # Info popups box (space mode menu).
+'ui.popup' = { fg = "light-one", bg = "dark-two" } # Documentation popups (space-k).
+'ui.popup.info' = { fg = "light-one", bg = "dark-two" } # Info popups box (space mode menu).
 
 
 # SYNTAX HIGHLIGHTING ==============================
