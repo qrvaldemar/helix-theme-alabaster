@@ -181,8 +181,7 @@ diagnostic = { } # Code diagnostics in editing area (LSP).
 
 
 [palette] # Define your custom colors here.
-# GNOME color palette
-# https://developer.gnome.org/hig/reference/palette.html
+# Radix + GNOME
 light-one = "#FFFFFF"
 light-three = "#DEDDDA"
 light-five = "#9A9996"
@@ -199,7 +198,7 @@ green-one = "#8FF0A4"
 green-three = "#33D17A"
 green-five = "#26A269"
 
-yellow-one = "#F9F06B"
+yellow-one = "#FFFAB8" # Radix
 yellow-three = "#F6D32D"
 yellow-five = "#E5A50A"
 
