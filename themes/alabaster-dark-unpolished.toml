@@ -181,8 +181,7 @@ diagnostic = { fg = "light-one", bg = "red-one" } # Code diagnostics in editing 
 
 
 [palette] # Define your custom colors here.
-# GNOME color palette
-# https://developer.gnome.org/hig/reference/palette.html
+# Radix + Gnome Pallete
 light-one = "#FFFFFF"
 light-three = "#DEDDDA"
 light-five = "#9A9996"
@@ -202,7 +201,7 @@ green-three = "#33D17A"
 green-five = "#26A269"
 
 yellow-one = "#F9F06B"
-yellow-three = "#F6D32D"
+yellow-three = "#FFE770" # Radix
 yellow-five = "#E5A50A"
 
 orange-one = "#FFBE6F"
