@@ -193,7 +193,7 @@ dark-fourth = "#241F31"
 dark-five = "#000000"
 
 blue-one = "#99C1F1"
-blue-three = "#3584E4"
+blue-three = "#0090FF" # Radix
 blue-five = "#1A5FB4"
 
 green-one = "#8FF0A4"
