@@ -8,8 +8,8 @@
 
 # GENERAL ==============================
 
-warning = { } # Editor warnings.
-error = { } # Editor errors, like mis-typing a command.
+warning = { fg = "red-three" } # Editor warnings.
+error = { fg = "red-five" } # Editor errors, like mis-typing a command.
 info = { } # Contextual info in diagnostic messages (LSP).
 hint = { } # Code diagnostics hints (LSP).
 diagnostic = { } # Code diagnostics in editing area (LSP).
@@ -26,16 +26,16 @@ diagnostic = { } # Code diagnostics in editing area (LSP).
 'ui.text.info' = { } # Info popup contents (space mode menu).
 
 'ui.cursor' = { bg = "blue-five" } # Fallback cursor colour, non-primary cursors when there are multiple (shift-c).
-'ui.cursor.primary' = { bg = "blue-five" } # The primary cursor when there are multiple (shift-c).
+'ui.cursor.primary' = { bg = "orange-three" } # The primary cursor when there are multiple (shift-c).
 'ui.cursor.insert' = { } # The cursor in insert mode (i).
 'ui.cursor.select' = { } # The cursor in select mode (v).
-'ui.cursor.match' = { bg = "blue-three" } # The matching parentheses of that under the cursor.
+'ui.cursor.match' = { bg = "orange-one", modifiers = ["bold", "italic"] } # The matching parentheses of that under the cursor.
 
 'ui.selection' = { bg = "blue-one" } # All currently selected text.
 'ui.selection.primary' = { bg = "blue-one" } # The primary selection when there are multiple.
 
 'ui.linenr' = { fg = "dark-five" } # Line numbers.
-'ui.linenr.selected' = { fg = "dark-five", bg = "light-three" } # Current line number.
+'ui.linenr.selected' = { fg = "dark-five", bg = "yellow-two" } # Current line number.
 
 'ui.virtual' = { } # Namespace for additions to the editing area.
 'ui.virtual.ruler' = { } # Vertical rulers (colored columns in editing area).
@@ -72,7 +72,7 @@ diagnostic = { } # Code diagnostics in editing area (LSP).
 
 'constructor' = { } # Constructor method for a class or struct.
 
-'constant' = { fg = "dark-five", bg = "purple-one" } # Constant value
+'constant' = { fg = "dark-five", bg = "violet-six" } # Constant value
 'constant.builtin' = { } # Special constants like `true`, `false`, `none`, etc.
 'constant.builtin.boolean' = { } # True or False.
 'constant.character' = { } # Constant of character type.
@@ -81,7 +81,7 @@ diagnostic = { } # Code diagnostics in editing area (LSP).
 'constant.numeric.integer' = { } # constant integer value.
 'constant.numeric.float' = { } # constant float value.
 
-'string' = { fg = "dark-five", bg = "green-one" } # String literal.
+'string' = { fg = "dark-five", bg = "green-four" } # String literal.
 'string.regexp' = { } # Regular expression literal.
 'string.special' = { fg = "dark-five", bg = "orange-one" } # Strings containing a path, URL, etc.
 'string.special.path' = { } # String containing a file path.
@@ -117,7 +117,7 @@ diagnostic = { } # Code diagnostics in editing area (LSP).
 
 'operator' = { } # Logical, mathematical, and other operators.
 
-'function' = { fg = "dark-five", bg = "blue-one" }
+'function' = { fg = "dark-five", bg = "blue-four" }
 'function.builtin' = { }
 'function.method' = { } # Class / Struct methods.
 'function.macro' = { }
@@ -174,9 +174,9 @@ diagnostic = { } # Code diagnostics in editing area (LSP).
 # Diff ==============================
 # Version control changes.
 
-'diff.plus' = { } # Additions.
-'diff.minus' = { } # Deletions.
-'diff.delta' = { } # Modifications.
+'diff.plus' = { bg = "mint-eleven" } # Additions.
+'diff.minus' = { bg = "red-five" } # Deletions.
+'diff.delta' = { bg = "green" } # Modifications.
 'diff.delta.moved' = { } # Renamed or moved files.
 
 
@@ -192,13 +192,18 @@ dark-five = "#000000"
 
 blue-one = "#99C1F1"
 blue-three = "#3584E4"
+blue-four = "#D5EFFF" # Radix Blue 4
 blue-five = "#1A5FB4"
 
 green-one = "#C4E8D1" # Radix
 green-three = "#33D17A"
+green-four = "#D6F1DF" # Radix Green 4
 green-five = "#26A269"
 
+mint-eleven = "#027864" # Radix Mint 11
+
 yellow-one = "#FFFAB8" # Radix
+yellow-two = "#FEFCE9" # Radix Yellow 2
 yellow-three = "#F6D32D"
 yellow-five = "#E5A50A"
 
@@ -213,6 +218,8 @@ red-five = "#A51D2D"
 purple-one = "#DC8ADD"
 purle-three = "#9141AC"
 purple-five = "#613583"
+
+violet-six = "#D4CAFE" # Radix Violet 6
 
 brown-one = "#CDAB8F"
 brown-three = "#986A44"
