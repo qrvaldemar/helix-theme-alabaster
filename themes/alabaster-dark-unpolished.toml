@@ -26,10 +26,10 @@ diagnostic = { fg = "light-one", bg = "red-one" } # Code diagnostics in editing 
 'ui.text.info' = { } # Info popup contents (space mode menu).
 
 'ui.cursor' = { bg = "light-five" } # Fallback cursor colour, non-primary cursors when there are multiple (shift-c).
-'ui.cursor.primary' = { bg = "light-five" } # The primary cursor when there are multiple (shift-c).
+'ui.cursor.primary' = { bg = "orange-three" } # The primary cursor when there are multiple (shift-c).
 'ui.cursor.insert' = { bg = "purple-one" } # The cursor in insert mode (i).
 'ui.cursor.select' = { } # The cursor in select mode (v).
-'ui.cursor.match' = { bg = "dark-one" } # The matching parentheses of that under the cursor.
+'ui.cursor.match' = { fg = "orange-three", modifiers = ["bold", "italic"] } # The matching parentheses of that under the cursor.
 
 'ui.selection' = { bg = "blue-five" } # All currently selected text.
 'ui.selection.primary' = { bg = "blue-five" } # The primary selection when there are multiple.
@@ -70,7 +70,7 @@ diagnostic = { fg = "light-one", bg = "red-one" } # Code diagnostics in editing 
 'type.builtin' = { } # Primitive types of the language (string, int, float).
 'type.enum.variant' = { } # A variant of an enum.
 
-'constructor' = { } # Constructor method for a class or struct.
+'constructor' = { fg = "light-one" } # Constructor method for a class or struct.
 
 'constant' = { fg = "purple-one" } # Constant value
 'constant.builtin' = { } # Special constants like `true`, `false`, `none`, etc.
@@ -120,8 +120,9 @@ diagnostic = { fg = "light-one", bg = "red-one" } # Code diagnostics in editing 
 'function' = { fg = "blue-three" }
 'function.builtin' = { fg = "light-one" }
 'function.method' = { fg = "light-one" } # Class / Struct methods.
+'function.method.private' = { fg = "light-one" }
 'function.macro' = { fg = "light-one" }
-# 'function.special' = { } # Preprocessor function in C.
+'function.special' = { fg = "light-one" } # Preprocessor function in C.
 
 'tag' = { } # As in <body> for html, css tags.
 'tag.error' = { } # Erroneous closing html tags.
