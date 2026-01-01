@@ -19,7 +19,7 @@ diagnostic = { fg = "light-one", bg = "red-one" } # Code diagnostics in editing 
 
 'ui.background' = "dark-five"  # Default background color.
 'ui.window' = { } # Window border between splits.
-'ui.gutter' = { bg = "dark-fourth"} # Left gutter for diagnostics and breakpoints.
+'ui.gutter' = { bg = "black-gray" } # Left gutter for diagnostics and breakpoints.
 
 'ui.text' = "light-one" # Default text color.
 'ui.text.focus' = { } # Selection highlight in buffer-picker or file-picker.
@@ -41,7 +41,7 @@ diagnostic = { fg = "light-one", bg = "red-one" } # Code diagnostics in editing 
 'ui.virtual.ruler' = { } # Vertical rulers (colored columns in editing area).
 'ui.virtual.whitespace' = { } # Whitespace markers in editing area.
 
-'ui.statusline' = { fg = "light-one", bg = "dark-fourth" } # Status line.
+'ui.statusline' = { fg = "light-one", bg = "black-gray" } # Status line.
 'ui.statusline.active' = { } # Status line in focused windows.
 'ui.statusline.inactive' = { } # Status line in unfocused windows.
 "ui.statusline.normal" = { } # Statusline mode during normal mode (only if editor.color-modes is enabled)
@@ -174,14 +174,14 @@ diagnostic = { fg = "light-one", bg = "red-one" } # Code diagnostics in editing 
 # Diff ==============================
 # Version control changes.
 
-'diff.plus' = { fg = "green-five" } # Additions.
+'diff.plus' = { fg = "green" } # Additions.
 'diff.minus' = { fg = "red-five" } # Deletions.
-'diff.delta' = { } # Modifications.
+'diff.delta' = { fg = "mint-six" } # Modifications.
 'diff.delta.moved' = { } # Renamed or moved files.
 
 
-[palette] # Define your custom colors here.
-# Radix + Gnome Pallete
+[palette] # define keywords for colors
+# Radix + Gnome + Whatever I was feeling Pallete
 light-one = "#FFFFFF"
 light-three = "#DEDDDA"
 light-five = "#9A9996"
@@ -192,6 +192,9 @@ dark-three = "#3D3846"
 dark-fourth = "#241F31"
 dark-five = "#000000"
 
+gray-eleven = "#646464" # Radix
+black-gray = "#303234" # whatever I was feeling
+
 blue-one = "#99C1F1"
 blue-three = "#5EB1EF" # Radix
 blue-five = "#1A5FB4"
@@ -199,6 +202,8 @@ blue-five = "#1A5FB4"
 green-one = "#8FF0A4"
 green-three = "#33D17A"
 green-five = "#26A269"
+
+mint-six = "#9CE0D0" # Radix
 
 yellow-one = "#F9F06B"
 yellow-three = "#FFE770" # Radix
