@@ -21,6 +21,10 @@ diagnostic = { } # Code diagnostics in editing area (LSP).
 'ui.window' = { } # Window border between splits.
 'ui.gutter' = { bg = "light-three"  } # Left gutter for diagnostics and breakpoints.
 
+'ui.bufferline' = { fg = "gray-nine" }
+'ui.bufferline.active' = { fg = "orange-eleven" }
+'ui.bufferline.background' = { bg = "mauve-two" }
+
 'ui.text' = { fg = "dark-five" } # Default text color.
 'ui.text.focus' = { } # Selection highlight in buffer-picker or file-picker.
 'ui.text.info' = { } # Info popup contents (space mode menu).
@@ -53,7 +57,7 @@ diagnostic = { } # Code diagnostics in editing area (LSP).
 'ui.highlight' = { } # selected contents of symbol pickers (spc-s, spc-S) and current line in buffer picker (spc-b).
 
 'ui.menu' = { fg = "dark-five", bg = "light-three" } # Autocomplete menu.
-'ui.menu.selected' = { fg = "dark-five", bg = "dark-three" } # Selected autocomplete item.
+'ui.menu.selected' = { fg = "dark-five", bg = "orange-one" } # Selected autocomplete item.
 
 'ui.popup' = { fg = "dark-five", bg = "light-three"  } # Documentation popups (space-k).
 'ui.popup.info' = {fg = "dark-five", bg = "light-three" } # Info popups box (space mode menu).
@@ -186,6 +190,10 @@ light-one = "#FFFFFF"
 light-three = "#DEDDDA"
 light-five = "#9A9996"
 
+mauve-two = "#FAF9FB" # Radix Mauve 2
+
+gray-nine = "#8D8D8D" # Radix Gray 9
+
 dark-one = "#77767B"
 dark-three = "#3D3846"
 dark-five = "#000000"
@@ -210,6 +218,7 @@ yellow-five = "#E5A50A"
 orange-one = "#FFBE6F"
 orange-three = "#FF7800"
 orange-five = "#C64600"
+orange-eleven = "#CC4E00" # Radix Orange Eleven
 
 red-one = "#F66151"
 red-three = "#E01B24"
